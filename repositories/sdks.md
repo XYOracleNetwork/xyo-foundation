@@ -6,6 +6,14 @@
 
 ## Base - XYO General Libraries
 
+### [XYO Base SDK - Web (sdk-base-web)](https://github.com/XYOracleNetwork/sdk-base-web)
+
+[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-web?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-web) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-web.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-web)
+
+### [XYO Base SDK - React (sdk-base-react)](https://github.com/XYOracleNetwork/sdk-base-react)
+
+[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-react?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-react) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-react.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-react)
+
 ### [XYO Base SDK - NodeJS (sdk-base-nodejs)](https://github.com/XYOracleNetwork/sdk-base-nodejs)
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-nodejs?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-nodejs) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-nodejs.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-nodejs)
@@ -127,6 +135,10 @@
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-objectmodel-kotlin?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-objectmodel-kotlin) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-objectmodel-kotlin.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-objectmodel-kotlin)
 
 ## UI
+
+### [XYO UI SDK - Web (sdk-ui-web)](https://github.com/XYOracleNetwork/sdk-ui-web)
+
+[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-ui-web?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-ui-web) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-ui-web.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-ui-web)
 
 ### [XYO UI SDK - React (sdk-ui-react)](https://github.com/XYOracleNetwork/sdk-ui-react)
 

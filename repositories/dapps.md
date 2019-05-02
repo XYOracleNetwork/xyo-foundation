@@ -8,4 +8,6 @@
 
 ### [SCSC (dapp-scsc-solidity)](https://github.com/XYOracleNetwork/dapp-scsc-solidity)
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/dapp-scsc-solidity?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/dapp-scsc-solidity) [![Build Status](https://travis-ci.com/XYOracleNetwork/app-xyo-react.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/app-xyo-react)
+[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/dapp-scsc-solidity?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/dapp-scsc-solidity)
+
+[![Build Status](https://travis-ci.com/XYOracleNetwork/app-xyo-react.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/app-xyo-react)
