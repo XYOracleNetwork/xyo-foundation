@@ -2,9 +2,12 @@
 
 # [![logo]](https://xy.company)
 
-# XYO DOCUMENTATION (documentation)
+# XYO Onboarding Guide
+
+> This guide contains all of the documentation to help get your started in developing with the XYO team
 
 ## Repositories
+> Click on one of our categories for a complete list of repos within that category
 
 ### [Applications](./repositories/applications.md)
 
@@ -17,6 +20,9 @@
 ### [Tools](./repositories/tools.md)
 
 ## Best Practices
+> We have a comprehensive developer guide with a general overiew on best practices. The links below the guide are specific best practices per language, framework, and hardware platform(s)
+
+### [Developer Guide](./bestpractices/developer-guide.md) 
 
 ### [Bootstrap](./bestpractices/bootstrap.md)
 
