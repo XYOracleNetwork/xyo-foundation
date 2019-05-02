@@ -4,7 +4,13 @@
 
 # XYO Onboarding Guide
 
-> This guide contains all of the documentation to help get your started in developing with the XYO team
+## For Complete Documentation 
+
+> Visit [developers.xyo.network](https://developers.xyo.network/)
+
+## The Importance of the Onboarding Process
+
+> This process will help get you started in developing with the XYO team, please read through these guides and take the time to integrate our practices into your work with XYO software
 
 ## Repositories
 > Click on one of our categories for a complete list of repos within that category
