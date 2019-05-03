@@ -4,31 +4,13 @@
 
 # XYO Repositories (SDKs)
 
-# XYO General Libraries
-
-## Base
-
-### [XYO Base SDK - Web (sdk-base-web)](https://github.com/XYOracleNetwork/sdk-base-web)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-web?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-web) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-web.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-web)
-
-### [XYO Base SDK - React (sdk-base-react)](https://github.com/XYOracleNetwork/sdk-base-react)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-react?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-react) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-react.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-react)
+## Base - General Libraries
 
 ### [XYO Base SDK - NodeJS (sdk-base-nodejs)](https://github.com/XYOracleNetwork/sdk-base-nodejs)
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-nodejs?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-nodejs) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-nodejs.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-nodejs)
 
-### [XYO Base SDK - Swift (sdk-base-swift)](https://github.com/XYOracleNetwork/sdk-base-swift)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-swift?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-swift) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-swift.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-swift)
-
-### [XYO Base SDK - Android (sdk-base-android)](https://github.com/XYOracleNetwork/sdk-base-android)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-android?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-android) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-android.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-android)
-
-## Core
+## Core - Core Functionality of XYO
 
 ### [XYO Core SDK - NodeJS (sdk-core-nodejs)](https://github.com/XYOracleNetwork/sdk-core-nodejs)
 
@@ -48,7 +30,7 @@
 
 ### [XYO ObjectModel SDK - NodeJS (sdk-objectmodel-nodejs)](https://github.com/XYOracleNetwork/sdk-objectmodel-nodejs)
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-objectmodel-nodejs?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-objectmodel-nodejs) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-objectmodel-nodejs.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-objectmodel-nodejs)
+[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-objectmodel-nodejs?branch=master&token=6cae78bb5ff544158c5b2742a542dd3321b09563)](https://bettercodehub.com/)[![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-objectmodel-nodejs.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-objectmodel-nodejs)
 
 ### [XYO ObjectModel SDK - Swift (sdk-objectmodel-swift)](https://github.com/XYOracleNetwork/sdk-objectmodel-swift)
 
@@ -58,93 +40,35 @@
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-objectmodel-kotlin?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-objectmodel-kotlin) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-objectmodel-kotlin.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-objectmodel-kotlin)
 
-# Sentinel - XYO Sentinel Libraries
-
-### [XYO Sentinel SDK - Web (sdk-sentinel-web)](https://github.com/XYOracleNetwork/sdk-sentinel-web)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-sentinel-web?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-sentinel-web) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-web.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-web)
-
-### [XYO Sentinel SDK - NodeJS (sdk-sentinel-nodejs)](https://github.com/XYOracleNetwork/sdk-sentinel-nodejs)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-sentinel-nodejs?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-sentinel-nodejs) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-nodejs.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-nodejs)
-
-### [XYO Sentinel SDK - Swift (sdk-sentinel-swift)](https://github.com/XYOracleNetwork/sdk-sentinel-swift)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-sentinel-swift?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-sentinel-swift) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-swift.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-swift)
-
-### [XYO Sentinel SDK - Android (sdk-sentinel-android)](https://github.com/XYOracleNetwork/sdk-sentinel-android)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-sentinel-android?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-sentinel-android) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-android.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-android)
-
-### [XYO Sentinel SDK - Dialog/C (sdk-sentinel-dialog-c)](https://github.com/XYOracleNetwork/sdk-sentinel-dialog-c)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-sentinel-dialog-c?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-sentinel-dialog-c) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-dialog-c.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-dialog-c)
-
-### [XYO Sentinel SDK - Nordic/C (sdk-sentinel-nordic-c)](https://github.com/XYOracleNetwork/sdk-sentinel-nordic-c)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-sentinel-nordic-c?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-sentinel-nordic-c) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-nordic-c.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-sentinel-nordic-c)
-
-# Bridge - XYO Bridge Libraries
-
-### [XYO Bridge SDK - Web (sdk-bridge-web)](https://github.com/XYOracleNetwork/sdk-bridge-web)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-bridge-web?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-bridge-web) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-bridge-web.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-bridge-web)
+## Bridge - XYO Bridge Libraries
 
 ### [XYO Bridge SDK - NodeJS (sdk-bridge-nodejs)](https://github.com/XYOracleNetwork/sdk-bridge-nodejs)
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-bridge-nodejs?branch=master&token=c0e7eaf803cf69afeb4dcf650765b0e558df10c2)](https://bettercodehub.com/) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-bridge-nodejs.svg?token=pZupZyvUXyv7kQHGUhCq&branch=develop)](https://travis-ci.com/XYOracleNetwork/sdk-bridge-nodejs)
 
-### [XYO Bridge SDK - Swift (sdk-bridge-swift)](https://github.com/XYOracleNetwork/sdk-bridge-swift)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-bridge-swift?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-bridge-swift) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-bridge-swift.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-bridge-swift)
-
 ### [XYO Bridge SDK - Android (sdk-bridge-android)](https://github.com/XYOracleNetwork/sdk-bridge-android)
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-bridge-android?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-bridge-android) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-bridge-android.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-bridge-android)
 
-### [XYO Bridge SDK - Dialog/C (sdk-bridge-dialog-c)](https://github.com/XYOracleNetwork/sdk-bridge-dialog-c)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-bridge-dialog-c?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-bridge-dialog-c) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-bridge-dialog-c.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-bridge-dialog-c)
-
-### [XYO Bridge SDK - Nordic/C (sdk-bridge-nordic-c)](https://github.com/XYOracleNetwork/sdk-bridge-nordic-c)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-bridge-nordic-c?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-bridge-nordic-c) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-bridge-nordic-c.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-bridge-nordic-c)
-
-# Archivist - XYO Archivist Libraries
+## Archivist - XYO Archivist Libraries
 
 ### [XYO Archivist SDK - NodeJS (sdk-archivist-nodejs)](https://github.com/XYOracleNetwork/sdk-archivist-nodejs)
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-archivist-nodejs?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-archivist-nodejs) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-archivist-nodejs.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-archivist-nodejs)
 
-# Diviner - XYO Diviner Libraries
+## Diviner - XYO Diviner Libraries
 
 ### [XYO Diviner SDK - NodeJS (sdk-diviner-nodejs)](https://github.com/XYOracleNetwork/sdk-diviner-nodejs)
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-diviner-nodejs?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-diviner-nodejs) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-diviner-nodejs.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-diviner-nodejs)
+[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-diviner-nodejs?branch=master&token=3b794c4e6ed44ed9b7d609e4f49fe41ffc3bd44b)](https://bettercodehub.com/) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-diviner-nodejs.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-diviner-nodejs)
 
-### [XYO Ethereum Diviner SDK - NodeJS (sdk-diviner-ethereum-nodejs)](https://github.com/XYOracleNetwork/sdk-diviner-ethereum-nodejs)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-diviner-ethereum-nodejs?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-diviner-ethereum-nodejs) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-diviner-ethereum-nodejs.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-diviner-ethereum-nodejs)
-
-# UI - XYO UI Libraries
-
-### [XYO UI SDK - Web (sdk-ui-web)](https://github.com/XYOracleNetwork/sdk-ui-web)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-ui-web?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-ui-web) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-ui-web.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-ui-web)
-
-### [XYO UI SDK - React (sdk-ui-react)](https://github.com/XYOracleNetwork/sdk-ui-react)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-ui-react?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-ui-react) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-ui-react.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-ui-react)
-
-### [XYO UI SDK - iOS (sdk-ui-ios)](https://github.com/XYOracleNetwork/sdk-ui-ios)
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-ui-ios?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-ui-ios) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-ui-ios.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-ui-ios)
+## UI - XYO UI Libraries
 
 ### [XYO UI SDK - Android (sdk-ui-android)](https://github.com/XYOracleNetwork/sdk-ui-android)
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-ui-android?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-ui-android) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-ui-android.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-ui-android)
 
-# BLE - XYO BLE Libraries
+## BLE - XYO BLE Libraries
 
 ### [BLE SDK - NodeJS (sdk-ble-nodejs)](https://github.com/XYOracleNetwork/sdk-ble-nodejs)
 
@@ -158,7 +82,7 @@
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-ble-android?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-ble-android) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-ble-android.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-ble-android)
 
-# Misc - Other XYO Libraries
+## Misc - Other XYO Libraries
 
 ### [BLE to TCP Bridge SDK - Swift (sdk-bletcpbridge-swift)](https://github.com/XYOracleNetwork/sdk-bletcpbridge-swift)
 
