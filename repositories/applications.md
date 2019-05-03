@@ -35,7 +35,7 @@
 
 [![Build Status](https://travis-ci.com/XYOracleNetwork/app-xyo-react.svg?branch=develop)](https://travis-ci.com/XYOracleNetwork/app-xyo-react)
 
-### [XYO Matrix App (app-matrix-react)](https://github.com/XYOracleNetwork/app-matrix-react) - This will be merged with the XYO React App
+### [XYO Matrix App (app-matrix-react)](https://github.com/XYOracleNetwork/app-matrix-react)
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/app-matrix-react?branch=develop&token=1e20127b492251fd44f57b4361c4df9714ff2ff3)](https://bettercodehub.com/)
 [![Maintainability](https://api.codeclimate.com/v1/badges/563edc770594497c2b62/maintainability)](https://codeclimate.com/repos/5cca47f0e24c0f02b30049e5/maintainability)

@@ -2,7 +2,7 @@
 
 # [![logo]](https://xy.company)
 
-# XYO Onboarding Guide
+# XYO GitHub Guide
 
 ## For Complete Documentation 
 
@@ -17,7 +17,7 @@
 
 ### [Applications](./repositories/applications.md)
 
-### [Dapps](./repositories/dapps.md)
+### [dApps](./repositories/dapps.md)
 
 ### [Documentation](./repositories/documentation.md)
 
