@@ -11,6 +11,8 @@ While you own your assigned project, you do have decision making autonomy, howev
 
 This is a living guide for the overall standards that are vital for XYO products to maintain the highest level of quality. Your project will also need ***a developer guide to dictate best practices for contribution.*** Feel free to use this guide to help you form the guide specific to your project. 
 
+> For guidelines on creating a readme, please [click here](readme-guide.md)
+
 ## Git Branch Standards
 
 **Make sure that the branch you are on is current and checked out from the most updated remote state**
