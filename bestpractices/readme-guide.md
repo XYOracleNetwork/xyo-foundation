@@ -1,6 +1,3 @@
-[logo]: https://cdn.xy.company/img/brand/XY_Logo_GitHub.png
-
-![logo]
 
 # README GUIDE
 The following is a guide to creating a readme for XYO projects.
@@ -9,11 +6,11 @@ Please follow this guide from the Logo on down to the credits. To use, you may c
 
 > **Company Logo First**
 
-[logo]: https://cdn.xy.company/img/brand/XY_Logo_GitHub.png
+[example logo]: https://cdn.xy.company/img/brand/XY_Logo_GitHub.png
 
-[![logo]](https://xy.company)
+[![example logo]](https://xy.company)
 
-# Status of the repo (build, code quality, chat option)
+## Status of the repo (build, code quality, chat option)
 > Badges should only reflect the master branch, please avoid develop and master branch table.
 
 **For more instruction on setting up badges, please [click here](badge-setup)**
@@ -71,7 +68,7 @@ Please follow this guide from the Logo on down to the credits. To use, you may c
 - DepSheild
 - David-dm
 - Travis-CI 
-- Nodei.com (NPM) - If published on NPM 
+- Nodei.com (NPM)
 
 **Kotlin/Android/Java**
 
@@ -100,8 +97,9 @@ Please follow this guide from the Logo on down to the credits. To use, you may c
 - Codacy
 - Travis-CI
 
-# A Table of Contents
-## You can customize to your needs and the project's
+> A Table of Contents **required**
+
+## Table of Contents
 > Stay consistent with Title and Installation/Usage/License/Credits
 
 Table of Contents
@@ -120,11 +118,15 @@ Table of Contents
 - [License](#license)
 - [Credits](#credits)
 
-# The Layout
+## The Layout
 
-## Sections - this is the primary header for the remainder of the readme - *required*
+> Sections - this is the primary header for the remainder of the readme - *required*
 
-### Simple Consensus Smart Contract Dapp Library _(dapp-scsc-solidity)_
+## Sections
+
+> Title - **Required** Should be written with one hash (#) before the title
+
+### Simple Consensus Smart Contract Dapp Library *(dapp-scsc-solidity)*
 
 [![Build Status](https://travis-ci.com/XYOracleNetwork/dapp-scsc-solidity.svg?branch=develop)](https://travis-ci.com/XYOracleNetwork/dapp-scsc-solidity)[![David Badge](https://david-dm.org/xyoraclenetwork/dapp-scsc-solidity/status.svg)](https://david-dm.org/xyoraclenetwork/dapp-scsc-solidity) [![David Badge](https://david-dm.org/xyoraclenetwork/dapp-scsc-solidity/dev-status.svg)](https://david-dm.org/xyoraclenetwork/dapp-scsc-solidity) [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/dapp-scsc-solidity?branch=master&token=02d25ea6874c74a77ffefc6157e0253305509033)](https://bettercodehub.com/results/XYOracleNetwork/dapp-scsc-solidity) <a href="http://commitizen.github.io/cz-cli/">
   <img alt="Commitizen friendly" src="https://img.shields.io/badge/web3-friendly-brightgreen.svg">
@@ -156,11 +158,13 @@ This package has been built to streamline the dApp build process for anyone read
 
 > **Requirements: Make sure that the developer has the resources needed**
 - In the command line go ahead and install using `npm`
+
   ```bash
   npx zos link dapp-scsc-solidity
   ```
 
 > Add any instrucions after installation here
+
 - Run
 
 > How to use the application or SDK
