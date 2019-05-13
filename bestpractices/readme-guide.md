@@ -1,4 +1,3 @@
-
 # README GUIDE
 The following is a guide to creating a readme for XYO projects.
 
@@ -218,9 +217,7 @@ Go through metamask to submit the transaction. You have now approved stake, let'
 The diviner is represented by a **Stakable token**
 
 - Mint one token with your wallet address by selecting the XyStakableToken and the address below
-
 - Select the `mint()` function and paste your wallet address into the `beneficiary` field
-
 - Confirm the transaction on metamask
 
 This will produce one non-fungible token (ERC721). This is unique to this specific diviner.
@@ -236,7 +233,7 @@ Copy the token address, this is **virtual id of your diviner**
 - enter an amount to stake (make sure it is in your approved limits!)
 - Click `execute`
 
-### You have just successfully added stake to a diviner!
+### You have just successfully added stake to a diviner
 
 **note** you are the staker, and the **stakingId** is the ledger of the stake that you have in the diviner
 
@@ -248,7 +245,7 @@ You will now get a returned JSON object with your stake amount, the block it was
 
 ## API
 
-#### XyERC20Token
+### XyERC20Token
 
 `transfer` 
 - Sends a specific value of tokens from your XYO account to another
