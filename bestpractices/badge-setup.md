@@ -57,4 +57,11 @@
 - Copy the Markdown version of the badge
 - Paste it to your repository's readme
 
+## For Codacy, CodeClimate, and SonarCloud
+
+> Check in with Phillip Lorenzo or Arie Trouw the current admins for these services
+
+
+
+
 
