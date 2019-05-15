@@ -101,4 +101,3 @@
 > Check in with Phillip Lorenzo or Arie Trouw the current admins for these services
 
 ### For Example Badges, check out the [readme guide](readme-guide)
-
