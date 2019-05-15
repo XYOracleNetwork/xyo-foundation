@@ -20,22 +20,23 @@
 
 - You should now be able to search for your project
 
-- If your project does not have a numerical score
+**If your project does not have a numerical score**
 
-    - Then click on the `play` button to analyze the repository
+- Then click on the `play` button to analyze the repository
 
-    - Once the analysis is complete you should see a numerical score
+- Once the analysis is complete you should see a numerical score
 
-    - You should also see a series of icons that indicate successful or failed checks
+- You should also see a series of icons that indicate successful or failed checks
 
-- Once you have completed and verified the analysis of your project
-    - Click on the `settings` wheel
+**Once you have completed and verified the analysis of your project**
 
-    - You should see a compliance badge with your score out of 10
+- Click on the `settings` wheel
 
-    - There are two methods to get the badge, we want to grab the markdown version
+- You should see a compliance badge with your score out of 10
 
-    - Copy the markdown version and paste it in the readme for your repository
+- There are two methods to get the badge, we want to grab the markdown version
+
+- Copy the markdown version and paste it in the readme for your repository
 
 ## Travis CI
 
@@ -47,21 +48,21 @@
 
 - You should also see a left side navigation with a list of the latest builds of repositories in `XYOracleNetwork`
 
-- Above the left side navigation, you should see a search bar which has the placeholder text: `Search all repositories`
+**Above the left side navigation, you should see a search bar which has the placeholder text: `Search all repositories`**
 
-    - This is where you can search for all of your repositories where you have already setup a travis build
+- This is where you can search for all of your repositories where you have already setup a travis build
 
 - If you have a build for the repository you searched for, you should then be able to click on the status image next to the **GitHub** logo next to the name of the repo
 
-- When you click on the status image, you will see a modal with the following:
+**When you click on the status image, you will see a modal with the following**
 
-    - branch - you can choose the branch you want the badge to represent, we should always select the `master` branch
+- branch - you can choose the branch you want the badge to represent, we should always select the `master` branch
 
-    - A dropdown select with the starter selection `Image URL`
+- A dropdown select with the starter selection `Image URL`
 
-    - Select `Markdown`
+- Select `Markdown`
 
-    - Once you select markdown, you can copy the markdown text and paste it to your repository's readme file
+- Once you select markdown, you can copy the markdown text and paste it to your repository's readme file
   
 ## David-dm
 
@@ -74,10 +75,13 @@
 - To get your badge, your repository needs to be **public** and is `node.js`
 
 - Scroll down to the `Giving you badges` section
-    - You should see a paragraph and a text entry field where you can type in the **username** (which will be XYOracleNetwork) and the **repo** (which is the name of your repository)
-    - Once you enter the values, the badge below should update according to status, most likely it will start as `dependencies/pending`
 
-- **IMPORTANT** This service is still in beta, so there will be moments where it is not working as intended. 
+- You should see a paragraph and a text entry field where you can type in the **username** (which will be XYOracleNetwork) and the **repo** (which is the name of your repository)
+
+- Once you enter the values, the badge below should update according to status, most likely it will start as `dependencies/pending`
+
+**IMPORTANT** This service is still in beta, so there will be moments where it is not working as intended
+
 - Now copy the entire URL, here is an example of what it should look like: https://david-dm.org/xyoraclenetwork/sdk-core-nodejs
 
 - Paste in an another broswer tab - this should direct you to a project dashboard page with a complete breakdown of total dependencies, which are up to date and which are out of date
