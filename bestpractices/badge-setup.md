@@ -60,40 +60,64 @@
 
 -   Once you select markdown, you can copy the markdown text and paste it to your repository's readme file
 
-## David-dm
-
--   Go to **[david-dm.org](https://david-dm.org/)**
-
--   Click on the Sign in on the right side of the navbar
-
--   Once you sign in, then text will change from `Sign in` to `Signed in`
-
--   To get your badge, your repository needs to be **public** and is `node.js`
-
--   Scroll down to the `Giving you badges` section  
-
--   You should see a paragraph and a text entry field where you can type in the **username** (which will be XYOracleNetwork) and the **repo** (which is the name of your repository)
-
--   Once you enter the values, the badge below should update according to status, most likely it will start as `dependencies/pending`
-
-**IMPORTANT** This service is still in beta, so there will be moments where it is not working as intended
-
--   Now copy the entire URL, here is an example of what it should look like: <https://david-dm.org/xyoraclenetwork/sdk-core-nodejs>
-
--   Paste in an another broswer tab - this should direct you to a project dashboard page with a complete breakdown of total dependencies, which are up to date and which are out of date
-
--   Click on the badge image under the repo name  
-
--   This will bring up an `EMBED BADGE` modal
-
--   Keep the type as `svg`
-
--   Copy the Markdown version of the badge
-
--   Paste it to your repository's readme
-
 ## For Codacy, CodeClimate, and SonarCloud
 
 > Check in with Phillip Lorenzo or Arie Trouw the current admins for these services
+
+### Using remark for your project's markdown files
+
+Markdown may be taken for granted in a project's readme or getting started guide, but to pass Codacy's guidelines and to have a clean markdown file, it is a good idea to use the `remark` code style linter.
+
+For reference to this linter, [click here](https://github.com/remarkjs/remark-lint)
+
+To use the remark linter cli (which we strongly recommend), install with the global tag 
+
+```sh
+npm install -g remark-cli
+```
+
+Create an empty `.remarkrc` file, especially if your project is not in `node.js`
+
+`.remarkrc`
+```rc
+{
+  // keep this empty
+}
+```
+
+Then run the `remark` command either for one file or for an entire project:
+
+```sh
+remark [your-file-name].md
+```
+or for the whole file
+
+```sh
+remark . 
+```
+
+Once the command is executed you should get feedback indicating no issues: 
+
+```sh
+README.md: no issues found
+bestpractices/badge-setup.md: no issues found
+bestpractices/c-c++.md: no issues found
+bestpractices/developer-guide.md: no issues found
+bestpractices/java-kotlin-android.md: no issues found
+bestpractices/nodejs.md: no issues found
+bestpractices/objectivec-swift-ios-osx.md: no issues found
+bestpractices/readme-guide.md: no issues found
+repositories/applications.md: no issues found
+repositories/dapps.md: no issues found
+repositories/documentation.md: no issues found
+repositories/pipeline.md: no issues found
+repositories/sdks.md: no issues found
+repositories/tools.md: no issues found
+```
+
+You can also run `remark` using the VSCode extension. There are instructions on how to do use this [click here](<https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-remark>
+)
+
+Once you have taken this step, your repo should be free of any unecessary markdown issues when running through the Codacy check. 
 
 ### For Example Badges, check out the [readme guide](readme-guide)
