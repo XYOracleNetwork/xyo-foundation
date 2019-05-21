@@ -89,6 +89,7 @@
 -   Keep the type as `svg`
 
 -   Copy the Markdown version of the badge
+
 -   Paste it to your repository's readme
 
 ## For Codacy, CodeClimate, and SonarCloud
