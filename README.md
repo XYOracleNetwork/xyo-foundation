@@ -46,3 +46,7 @@
 
 ### [Hardware](./bestpractices/hardware.md)
 
+### [Readme Guide](./bestpractices/readme-guide.md)
+
+### [Badge Setup Guide](./bestpractices/badge-setup.md)
+

@@ -10,15 +10,21 @@
 
 ### Compiler (tsc)
 
-### Linter (tslint)
+### Linter(s) (tslint)
+
+For markdown use [remark-lint](https://github.com/remarkjs/remark-lint)
 
 ## Testing (Jest)
 
 ## Code Quality (CodeClimate/BetterCodeHub/Codeacy/SonarQube)
 
+For more on code quality, take a look at our [Badge Setup Guide](./badge-setup.md)
+
 ## Dependency Checking (David/DepShield)
 
 ## CI/CD (Travis)
+
+For more on setting up TravisCI, consult our [Badge Setup Guide](./badge-setup.md)
 
 ## Publishing (NPMJS)
 
