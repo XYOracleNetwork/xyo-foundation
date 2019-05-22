@@ -404,12 +404,11 @@ repository. Please squash meaningless commits before submitting a pull-request.
 
 ## License
 
-LGPL-3.0
+This project is licensed under the GNU Lesser General Public License
+Version 3 License - see the LICENSE.md file for details
 
 > Credits - _required_ - This can include any third party libraries that you used that require a credit, and the exact sentence with graphic for XY as seen below
 
 ## Credits
 
-Package developed using [ZeppelinOS](https://zeppelinos.org/)
-
-<p align="center">Made with  ❤️  by [<b>XY - The Persistent Company</b>] (https://xy.company)</p>
+Made with 🔥and ❄️ by [XY - The Persistent Company](https://www.xy.company)
