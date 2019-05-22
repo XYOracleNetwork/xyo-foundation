@@ -410,6 +410,4 @@ LGPL-3.0
 
 ## Credits
 
-Package developed using [ZeppelinOS](https://zeppelinos.org/)
-
-<p align="center">Made with  ❤️  by [<b>XY - The Persistent Company</b>] (https://xy.company)</p>
+Made with 🔥and ❄️ by [XY - The Persistent Company](https://www.xy.company)
