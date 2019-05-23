@@ -20,10 +20,6 @@ Please follow this guide from the Logo on down to the credits. To use, you may c
 
 [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-core-nodejs.svg?branch=develop)](https://travis-ci.com/XYOracleNetwork/sdk-core-nodejs)
 
-> Dependency monitoring using david-dm
-
-[![David Badge](https://david-dm.org/xyoraclenetwork/sdk-core-nodejs/status.svg)](https://david-dm.org/xyoraclenetwork/sdk-core-nodejs) [![David Badge](https://david-dm.org/xyoraclenetwork/sdk-core-nodejs/dev-status.svg)](https://david-dm.org/xyoraclenetwork/sdk-core-nodejs)
-
 > Identify and remediate vulnerabilities using DepShield
 
 [![DepShield Badge](https://depshield.sonatype.org/badges/XYOracleNetwork/sdk-core-nodejs/depshield.svg)](https://depshield.github.io)
@@ -404,8 +400,7 @@ repository. Please squash meaningless commits before submitting a pull-request.
 
 ## License
 
-This project is licensed under the GNU Lesser General Public License
-Version 3 License - see the LICENSE.md file for details
+See the [LICENSE.md](LICENSE) file for license details.
 
 > Credits - _required_ - This can include any third party libraries that you used that require a credit, and the exact sentence with graphic for XY as seen below
 
