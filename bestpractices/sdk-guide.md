@@ -375,3 +375,94 @@ for i in 0..9 {
 > There are differences in some implementations, but both libraries share origin chain and block creation
 
 ### Examples of shared functions 
+
+XY2BluetoothDevice
+
+-   `find()`
+
+XY3BluetoothDevice
+
+-   `find()`
+-   `stayAwake()`
+-   `fallAsleep()`
+-   `lock()`
+-   `unlock()`
+
+XY4BluetoothDevice
+
+-   `lock()`
+-   `unlock()`
+-   `stayAwake()`
+-   `fallAsleep()`
+-   `find()`
+
+XYGpsBluetoothDevice
+
+-   `find()`
+-   `stayAwake()`
+
+Shared functions to be renamed 
+
+`addService`
+
+Swift 
+- `XYCBPeripheralManager.swift`
+
+Android 
+- `XyBluetoothGattServer.kt`
+
+`removeService`
+
+Swift 
+- `XYCBPeripheralManager.swift`
+
+Android 
+- `XYBluetoothGattServer.kt`
+
+`startAdvertising`
+
+Swift 
+- `XYCBPeripheralManager.swift`
+
+Android 
+- `XYBluetoothAdvertiser.kt`
+
+`stopAdvertising`
+
+Swift 
+- `XYCBPeripheralManager.swift`
+
+Android 
+- `XYBluetoothAdvertiser.kt`
+
+`addCharacteristic`
+
+Swift 
+- `XYMutableService.swift`
+
+Android 
+- `XYOServerActivity.kt`
+
+### Shared Properties Files with some shared enumerators
+
+- `DeviceInformationService`
+
+- `GenericAccessService`
+
+- `GenericAttributeService`
+
+- `LinkLossService`
+
+- `TxPowerService`
+
+- XY3 - `BasicConfigService`
+
+- XY3 - `ControlService`
+
+- XY3 - `ExtendedConfigService`
+
+- XY3 - `ExtendedControlService`
+
+- XY4 - `PrimaryService` (In Swift it’s `XyFinderPrimaryService`)
+
+- `XYSmartScan`
