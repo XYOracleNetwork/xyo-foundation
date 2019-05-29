@@ -16,14 +16,14 @@ There are shared elements of SDKs that should be documented across readmes and g
 
 Table of Contents
 
-- [Title](#sdk-core-kotlin)
-- [Long Description](#long-description)
-- [Read the Yellow Paper](#read-the-yellow-paper)
-- [Getting Started](#getting-started)
-- [Installing](#installing)
-- [Building and Testing with Gradle](#building-and-testing-with-gradle)
-- [License](#license)
-- [Credits](#credits)
+-   [Title](#sdk-core-kotlin)
+-   [Long Description](#long-description)
+-   [Read the Yellow Paper](#read-the-yellow-paper)
+-   [Getting Started](#getting-started)
+-   [Installing](#installing)
+-   [Building and Testing with Gradle](#building-and-testing-with-gradle)
+-   [License](#license)
+-   [Credits](#credits)
 
 ## Long Description
 
@@ -81,7 +81,6 @@ node.originState.addSigner(signer: signer)
 
 // creates a origin block with its self (genesis block if this is the first block you make)
 node.selfSignOriginChain()
-
 ```
 
 After creating a genesis block, your origin chain has officially started. Remember, all of the state is stored in the state repository (`XyoOriginChainStateRepository`) and the block repository (`XyoOriginBlockRepository`) that are constructed with the node. Both repositories are very high level and can be implemented for ones needs. Out of the box, this library comes with an implementation for key value store databases (`XyoStorageOriginBlockRepository`) and (`XyoStorageOriginChainStateRepository`). The `XyoStorageProvider` interface defines the methods for a simple key value store. There is a default implementation of an in memory key value store that comes with this library (`XyoInMemoryStorage`).
@@ -109,6 +108,7 @@ val newBoundWitness = node.boundWitness(handler, testProcedureCatalogue).await()
 ```
 
 **Server**
+
 ```kotlin
 // create a tcp server on port 11000
 val server = XyoTcpServer(11000)
@@ -130,6 +130,7 @@ server.listen { pipe ->
 Further examples of interacting through a socket can be found [here](https://github.com/XYOracleNetwork/sdk-core-kotlin/blob/feature/getting-started/src/test/kotlin/network/xyo/sdkcorekotlin/node/interaction/XyoStandardInteractionTest.kt).
 
 ### Adding Custom Data to a Bound Witness
+
 ```kotlin
 node.addHeuristic("MyHeuristic", object : XyoHeuristicGetter {
 	// will get called right before the bound witness stares
@@ -173,7 +174,6 @@ node.addListener("MyListener", object : XyoNodeListener {
 
 [![Build Status](https://travis-ci.org/XYOracleNetwork/sdk-core-swift.svg?branch=master)](https://travis-ci.org/XYOracleNetwork/sdk-core-swift) 
 
-
 A library to preform all core XYO Network functions.
 This includes creating an origin chain, maintaining an origin chain, negotiations for talking to other nodes, and other basic functionality.
 The library has heavily abstracted modules so that all operations will work with any crypto, storage, networking, ect.
@@ -204,7 +204,6 @@ let configuration = XyoRepositoryConfiguration(originState: stateRepo, originBlo
 
 // the node to interface with creating an origin chain
 let node = XyoOriginChainCreator(hasher: hasher, repositoryConfiguration: configuration)
-
 ```
 
 After creating a node, it is standard to add a signer, and create a genesis block.
@@ -218,11 +217,9 @@ node.originState.addSigner(signer: signer)
 
 // creates a origin block with its self (genesis block if this is the first block you make)
 try node.selfSignOriginChain()
-
 ```
 
 After creating a genesis block, your origin chain has officially started. Remember, all of the state is stored in the state repository (`XyoOriginChainStateRepository`) and the block repository (`XyoOriginBlockRepository`) that are constructed with the node. Both repositories are very high level and can be implemented for ones needs. Out of the box, this library comes with an implementation for key value store databases (`XyoStorageOriginBlockRepository`) and (`XyoStorageOriginChainStateRepository`). The `XyoStorageProvider` interface defines the methods for a simple key value store. There is a default implementation of an in memory key value store that comes with this library (`XyoInMemoryStorage`).
-
 
 ### Creating Origin Blocks
 
@@ -248,8 +245,8 @@ node.boundWitness(handler: handler, procedureCatalogue: XyoProcedureCatalogue) {
 }
 ```
 
-
 **Using a memory pipe** 
+
 ```swift
 let pipeOne = XyoMemoryPipe()
 let pipeTwo = XyoMemoryPipe()
@@ -267,46 +264,43 @@ nodeOne.boundWitness(handler: handlerOne, procedureCatalogue: TestInteractionCat
 nodeTwo.boundWitness(handler: handlerTwo, procedureCatalogue: TestInteractionCatalogueCaseOne()) { (result, error) in
     // this should complete second
 }
-  ```
+```
+
   More example and bridge interactions can be found [here](https://github.com/XYOracleNetwork/sdk-core-swift/tree/docs/sdk-core-swiftTests/node/interaction)
- 
- 
+
  **Bluetooth**
- 
+
  Bluetooth swift pipes for client and server can be found [here](https://github.com/XYOracleNetwork/sdk-xyobleinterface-swift).
- 
- 
+
  **Other**
- 
+
  Other network pipes can be implemented as long as the follow the interface defined [here](https://github.com/XYOracleNetwork/sdk-core-swift/blob/docs/sdk-core-swift/network/XyoNetworkPipe.swift).
- 
- ### Adding custom data to bound witnesses.
- 
+
+### Adding custom data to bound witnesses.
+
  To add custum data to a bound witnesses, a XyoHueresticGetter can be created:
- 
- ```swift
- public struct MyCustomData: XyoHueresticGetter {
-    public func getHeuristic() -> XyoObjectStructure? {
-        if (conditionIsMet) {
-            let myData = getDataSomehow()
-            return myData
-        }
-        
-        return nil
-    }
+
+```swift
+public struct MyCustomData: XyoHueresticGetter {
+   public func getHeuristic() -> XyoObjectStructure? {
+       if (conditionIsMet) {
+           let myData = getDataSomehow()
+           return myData
+       }
+       
+       return nil
+   }
 }
- ```
- 
+```
+
  After the getter has been created, it can be added to a node by calling:
- 
- ```swift
- let myDataForBoundWitness = MyCustomData()
- node.addHuerestic (key: "MyData", getter : myDataForBoundWitness)
- 
- ```
- 
- 
- ### Adding a listener to a node
+
+```swift
+let myDataForBoundWitness = MyCustomData()
+node.addHuerestic (key: "MyData", getter : myDataForBoundWitness)
+```
+
+### Adding a listener to a node
 
 ```swift
  struct MyListener : XyoNodeListener {
@@ -333,15 +327,14 @@ nodeTwo.boundWitness(handler: handlerTwo, procedureCatalogue: TestInteractionCat
         // update UI
     }
 }
- ```
- 
+```
+
   You may add a listener to a node by adding the following:
-  
-  ```swift
-  let listener = MyListener()
-  myNode.addListener(key: "MyListener", listener : listener)
-  
-  ```
+
+```swift
+let listener = MyListener()
+myNode.addListener(key: "MyListener", listener : listener)
+```
 
 ## TCP Node
 
@@ -374,7 +367,7 @@ for i in 0..9 {
 
 > There are differences in some implementations, but both libraries share origin chain and block creation
 
-### Examples of shared functions 
+### Examples of shared functions
 
 XY2BluetoothDevice
 
@@ -406,63 +399,73 @@ Shared functions to be renamed
 `addService`
 
 Swift 
-- `XYCBPeripheralManager.swift`
+
+-   `XYCBPeripheralManager.swift`
 
 Android 
-- `XyBluetoothGattServer.kt`
+
+-   `XyBluetoothGattServer.kt`
 
 `removeService`
 
 Swift 
-- `XYCBPeripheralManager.swift`
+
+-   `XYCBPeripheralManager.swift`
 
 Android 
-- `XYBluetoothGattServer.kt`
+
+-   `XYBluetoothGattServer.kt`
 
 `startAdvertising`
 
 Swift 
-- `XYCBPeripheralManager.swift`
+
+-   `XYCBPeripheralManager.swift`
 
 Android 
-- `XYBluetoothAdvertiser.kt`
+
+-   `XYBluetoothAdvertiser.kt`
 
 `stopAdvertising`
 
 Swift 
-- `XYCBPeripheralManager.swift`
+
+-   `XYCBPeripheralManager.swift`
 
 Android 
-- `XYBluetoothAdvertiser.kt`
+
+-   `XYBluetoothAdvertiser.kt`
 
 `addCharacteristic`
 
 Swift 
-- `XYMutableService.swift`
+
+-   `XYMutableService.swift`
 
 Android 
-- `XYOServerActivity.kt`
+
+-   `XYOServerActivity.kt`
 
 ### Shared Properties Files with some shared enumerators
 
-- `DeviceInformationService`
+-   `DeviceInformationService`
 
-- `GenericAccessService`
+-   `GenericAccessService`
 
-- `GenericAttributeService`
+-   `GenericAttributeService`
 
-- `LinkLossService`
+-   `LinkLossService`
 
-- `TxPowerService`
+-   `TxPowerService`
 
-- XY3 - `BasicConfigService`
+-   XY3 - `BasicConfigService`
 
-- XY3 - `ControlService`
+-   XY3 - `ControlService`
 
-- XY3 - `ExtendedConfigService`
+-   XY3 - `ExtendedConfigService`
 
-- XY3 - `ExtendedControlService`
+-   XY3 - `ExtendedControlService`
 
-- XY4 - `PrimaryService` (In Swift it’s `XyFinderPrimaryService`)
+-   XY4 - `PrimaryService` (In Swift it’s `XyFinderPrimaryService`)
 
-- `XYSmartScan`
+-   `XYSmartScan`
