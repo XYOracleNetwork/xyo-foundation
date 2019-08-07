@@ -42,6 +42,8 @@ When you are checkout out new branches and naming them, you should follow a soli
 
 In order to ensure that production-ready software is truly ready, we need to maintain a strong git flow. This means that we should only merge our develop or release branch into master - essentially we want to lock the `master`, `release` and `develop` branches. The `develop` branch should be the home for all tested and production ready code that is ready for a final review with included checks before being brought into master, we can also use `release` for production staging. All checks would include CI/CD and code quality. 
 
+**NOTE** **Do not under any circumstances delete the `develop` branch.** Be careful when completing a pull request to `master` from `develop` resist the urge to delete the branch from the GitHub prompt. Most of our repos do have `develop` branch protection, but in the case that there is an outlier, this guideline applies. 
+
 For feature branches, you should `git checkout -b feature/<what feature name you are working on>`
 **NOTE** Feature branches should always and **only** be checked out from the latest develop branch. 
 
