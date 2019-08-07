@@ -38,7 +38,7 @@ When setting up Travis, you should create a branch specifically for the setup, e
 
 Continuous integration is important for repo integrity, and we need to add Continuous Deployment for versioning (numerical and semantic versioning instructions below example script) and automated deployment on a push to the `master` branch
 
-We strongly recommend that for the majority of projects that `deploy` gets pointed to the `master` branch. If you do need to 
+We require that for the majority of projects `deploy` gets pointed to the `master` branch. If you do need to deploy from a `develop` branch, please check in with the dev team for your project.
 
 Example `travis.yml`
 
@@ -112,5 +112,7 @@ Once you have configured your `yaml` file, you should do a pull request to the `
 
 Once all `required` tests pass on the `develop` branch, then you can create a pull request against the `master` branch
 
-Once all tests pass
+Once all tests pass, then you are ready to merge your code to the master branch and deploy to production.
+
+For specific `yaml` configurations, please consult either the project lead on your particular project or the CTO.
 
