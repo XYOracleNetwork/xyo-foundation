@@ -3,6 +3,7 @@
 ![logo]
 
 # DEVELOPER GUIDE
+
 The following is a guide for all procedures, standards, and conduct while working on any developmnent projects at XYO.
 
 While you own your assigned project, you do have decision making autonomy, however you should refer to this guide for key infrastructure so that your app is ready for the high standards here at XYO.
