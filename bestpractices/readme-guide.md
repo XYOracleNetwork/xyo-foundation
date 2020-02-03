@@ -406,4 +406,4 @@ See the [LICENSE.md](LICENSE) file for license details.
 
 ## Credits
 
-Made with 🔥and ❄️ by [XY - The Persistent Company](https://www.xy.company)
+Made with 🔥and ❄️ by [XYO](https://www.xyo.network)
