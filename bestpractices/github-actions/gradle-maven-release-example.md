@@ -1,33 +1,46 @@
 # Gradle/Maven Release Example
 
-This example fires the build and publish event only when a release tag is created. This does not trigger on the master branch. 
+This example executes an install, build for release, and a bintray upload while creating a Github release draft, which can be edited with the current tag and release description. 
+
+Currently for semver consistency, version numbers (inlcuding minor and patch updates) are manual. 
 
 ```yaml
 name: Release 
 
 on: 
   push:
-    tags:
-      - 'v*'
+    branches:
+      - 'master'
 
-jobs:  
+jobs:         
   publish:
 
     runs-on: ubuntu-latest
-
-    steps: 
-      - uses: actions/checkout@v2
+    
+    steps:
+      - uses: actions/checkout@master
       - uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - name: Permission for gradlew
+      - name: pre-build
         run: chmod +x gradlew
-      - name: Build
-        run: ./gradlew assembleRelease
-      - name: Publish
+      - name: install
+        run: ./gradlew install
+      - name: assemble
+        run: ./gradlew :xyo-android-library:assembleRelease
+      - name: bintray upload
         env: 
-          GITHUB_USERNAME: ${{ secrets.USERNAME }}
-          GITHUB_TOKEN: ${{ secrets.NEW_TOKEN }}
-        run: gradle publish
-
+          BINTRAY_USER: ${{ secrets.BINTRAY_USER }}
+          BINTRAY_KEY: ${{ secrets.BINTRAY_KEY }}
+        run: ./gradlew :xyo-android-library:bintrayUpload
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with: 
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: true
+          prerelease: false
 ```

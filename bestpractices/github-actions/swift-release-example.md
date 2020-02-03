@@ -2,7 +2,7 @@
 
 [Using swift package manager ](https://github.com/apple/swift-package-manager)
 
-Destination is kept here in case of a need to set a destination for a simulation build. 
+Destination is kept here in case of a need to set a destination for a simulation build for any testing as part of the release workflow. 
 
 
 ``` yaml

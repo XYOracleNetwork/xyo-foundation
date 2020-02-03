@@ -2,9 +2,9 @@
 
 [Using swift package manager ](https://github.com/apple/swift-package-manager)
 
-Destination is kept here in case of a need to set a destination for a simulation build. 
+Destination is kept here in case of a need to set a destination for a simulation build in one of the steps. 
 
-This example includes a `branches-ignore` event configuration type so that if you are also including a release workflow you don't go through the build twice. 
+This example includes a `branches-ignore` event configuration type so that if you are also including a release workflow the build is not executed twice. This is highly recommended when you are using a build workflow and a release workflow. 
 
 
 ``` yaml
