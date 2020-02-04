@@ -16,13 +16,13 @@ Please follow this guide from the Logo on down to the credits. To use, you may c
 
 **For more instruction on setting up badges, please [click here](badge-setup)**
 
-> Your build branch status using Travis CI
+> Your build branch status using Github Actions
 
-[![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-core-nodejs.svg?branch=develop)](https://travis-ci.com/XYOracleNetwork/sdk-core-nodejs)
+![](https://github.com/XYOracleNetwork/client-xyo-nodejs/workflows/CI/badge.svg?branch=develop)
 
-> Identify and remediate vulnerabilities using DepShield
+> Identify and remediate vulnerabilities using Snyk
 
-[![DepShield Badge](https://depshield.sonatype.org/badges/XYOracleNetwork/sdk-core-nodejs/depshield.svg)](https://depshield.github.io)
+[![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-core-kotlin/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/XYOracleNetwork/sdk-core-kotlin?targetFile=build.gradle)
 
 > Quality of source code and bug detection using SonarCloud 
 
@@ -30,7 +30,9 @@ Please follow this guide from the Logo on down to the credits. To use, you may c
 
 > Maintainability and test coverage using Code Climate
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/f3dd4f4d35e1bd9eeabc/maintainability)](https://codeclimate.com/github/XYOracleNetwork/sdk-core-nodejs/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/587ae96e86057b6b6178/maintainability)](https://codeclimate.com/repos/5c4a7a7372b7b2029d008b34/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/587ae96e86057b6b6178/test_coverage)](https://codeclimate.com/repos/5c4a7a7372b7b2029d008b34/test_coverage)
 
 > Code review against engineering guidelines using Better Code Hub
 
@@ -40,61 +42,68 @@ Please follow this guide from the Logo on down to the credits. To use, you may c
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1f31c7fa87694b8eab91a2d71f74b697)](https://www.codacy.com/app/arietrouw/app-xyo-nodejs?utm_source=github.com&utm_medium=referral&utm_content=XYOracleNetwork/app-xyo-nodejs&utm_campaign=Badge_Grade)
 
-> If this repo is published on NPM 
-
-[![NPM](https://nodei.co/npm/@xyo-network/app.png)](https://nodei.co/npm/@xyo-network/app/) 
-
-> If you want to add a gitter chat link
-
-<a href="https://gitter.im/XYOracleNetwork/Dev">
-  <img alt="Gitter Chat" src="https://img.shields.io/gitter/room/XYOracleNetwork/Stardust.svg">
-</a>
-
 > If you are working on a dApp and implementing Web3 use Commitizen
 
 <a href="http://commitizen.github.io/cz-cli/">
   <img alt="Commitizen friendly" src="https://img.shields.io/badge/web3-friendly-brightgreen.svg">
 </a>
 
-> Breakdown of badges based on language and/or platform
+> If this repo is published on NPM 
+
+[![NPM](https://img.shields.io/npm/v/@xyo-network/sdk-core-nodejs.svg?style=plastic)](https://www.npmjs.com/package/@xyo-network/sdk-core-nodejs) 
+
+> If this repo is published on Bintray (Android Projects) 
+
+[![Download](https://api.bintray.com/packages/xyoraclenetwork/xyo/sdk-core-kotlin/images/download.svg?version=3.0.3)](https://bintray.com/xyoraclenetwork/xyo/sdk-core-kotlin/3.0.3/link) 
+
+> If this repo is published on JitPack (Android Projects) 
+
+[![](https://jitpack.io/v/XYOracleNetwork/sdk-ble-android.svg)](https://jitpack.io/#XYOracleNetwork/sdk-ble-android)
+
+> If this repo is published on Cocoapods (Swift Projects) 
+
+[![](https://img.shields.io/cocoapods/v/sdk-core-swift.svg?style=flat)](https://cocoapods.org/pods/sdk-core-swift)
+
+## Breakdown of badges based on language and/or platform
 
 **Node.JS/Bootstrap/React**
 
+-   Github Actions
 -   Better Code Hub
 -   SonarCloud (implementing SonarQube)
 -   Code Climate
 -   Codacy
--   DepSheild
--   David-dm
--   Travis-CI 
+-   Snyk
 -   Nodei.com (NPM)
 
 **Kotlin/Android/Java**
 
+-   Github Actions
 -   Better Code Hub
 -   SonarCloud (implementing SonarQube)
 -   Code Climate
 -   Codacy
--   DepSheild
--   Travis-CI 
+-   Snyk
+-   Bintray
 -   JitPack
 
 **iOS/MacOS/Swift**
 
+-   Github Actions
 -   Better Code Hub
 -   SonarCloud (implementing SonarQube)
 -   Code Climate
--   Codacy
--   Travis-CI 
+-   Codacy 
 -   CocoaPod
+-   Swift Package Manager
 
 **C/Firmware**
 
+-   Github Actions
 -   Better Code Hub
 -   SonarCloud (implementing SonarQube)
 -   Code Climate
 -   Codacy
--   Travis-CI
 
 > A Table of Contents **required**
 
@@ -128,7 +137,8 @@ Table of Contents
 
 ### Simple Consensus Smart Contract Dapp Library _(dapp-scsc-solidity)_
 
-[![Build Status](https://travis-ci.com/XYOracleNetwork/dapp-scsc-solidity.svg?branch=develop)](https://travis-ci.com/XYOracleNetwork/dapp-scsc-solidity)[![David Badge](https://david-dm.org/xyoraclenetwork/dapp-scsc-solidity/status.svg)](https://david-dm.org/xyoraclenetwork/dapp-scsc-solidity) [![David Badge](https://david-dm.org/xyoraclenetwork/dapp-scsc-solidity/dev-status.svg)](https://david-dm.org/xyoraclenetwork/dapp-scsc-solidity) [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/dapp-scsc-solidity?branch=master&token=02d25ea6874c74a77ffefc6157e0253305509033)](https://bettercodehub.com/results/XYOracleNetwork/dapp-scsc-solidity) <a href="http://commitizen.github.io/cz-cli/">
+![](https://github.com/XYOracleNetwork/dapp-scsc-solidity/workflows/CI/badge.svg)
+[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/dapp-scsc-solidity?branch=master&token=02d25ea6874c74a77ffefc6157e0253305509033)](https://bettercodehub.com/results/XYOracleNetwork/dapp-scsc-solidity) [![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/dapp-scsc-solidity/badge.svg)](https://snyk.io/test/github/XYOracleNetwork/dapp-scsc-solidity) <a href="http://commitizen.github.io/cz-cli/">
   <img alt="Commitizen friendly" src="https://img.shields.io/badge/web3-friendly-brightgreen.svg">
 </a>
 

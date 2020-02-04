@@ -121,23 +121,21 @@ See the above section on Dependency Tracking for guidelines.
 ### Internal Libraries
 New projects may require internal-only libraries to be updated for new features. These changes may impact existing applications of the library. Keep this in mind and ensure that, if needed, time is set aside to update any older codebase which relies on the library that is being updated. Proper tagging and use of GitFlow will guarantee older builds can be built even if their shared libraries change.
 
-## CI/CD (Travis)
+## CI/CD (Github Actions)
 
-Travis CI provides an automated build service for iOS and macOS projects, with the ability to run unit and UI tests as part of the build. In order for this to be most effective, the `master` and `develop` branches for a GitHub repository should be locked, with pull requests automatically kicking off a Travis build which would utlize Fastlane for running tests, computing test coverage, and deploying the build to Test Flight if so desired.
+Github Actions provides an automated CI/CD service for iOS and macOS projects, with the ability to run unit and UI tests as part of the build. In order for this to be most effective, the `master` and `develop` branches for a GitHub repository should have branch protection rules, with and pushed code and pull requests automatically kicking off a Github Action which would utlize Fastlane for running tests, computing test coverage, and deploying the build to Test Flight if so desired.
 
-## Code Quality - iOS/MacOS (Danger)
+## Publishing (Cocoapods)
 
-Danger is a tool which integrates with Travis CI to automatically perform a code review based on a set of rules, integrating with SwiftLint described in the Coding Standards section below. Danger will add comments to the pull request in GitHub.
-
-## Publishing (Fastlane)
+To publish your code to Cocoapods for use, you would need to consult an admin to get permission to run a session prior to executing a Github Action for publishing. Please consult the `swift-pod-release.md` file in the [Github Actions Folder](github-actions/swift-pod-release.md)
 
 ### Build Process
 
-[Fastlane](https://fastlane.tools/) provides an open-source platform that handles the often tedious process of building an application for the App Store. Fastlane deals with provisioning provfiles and certificates, running unit tests, and uploading to both Test Flight and the App Store. It can be used in conjunction with Travis to automate the entire build and release process.
+For a build Github Action, in a case by case basis, we can either go with an `xcodebuild`, or a Fastlane run build. Github actions will execute either scenario in the VM. For reference of what a Github Action build looks like, consult the `swift-pod-build.md` in the [Github Actions Folder](github-actions/swift-pod-build.md) 
 
 ### Platform/API Targeting
 
-As of this writing, we are currently targeting a minimum iOS version of 11 and a minimum macOS version of 10.13. A list of supported iOS devices is [located here](https://support.apple.com/en-us/HT209574).
+As of this writing, we are currently targeting a minimum iOS version of 13 and a minimum macOS version of 10.15. A list of supported iOS devices is [located here](https://support.apple.com/en-us/HT209574).
 
 ### Design Issues (Platform vs. XY)
 
@@ -252,8 +250,6 @@ Here is a diagram of good git flow
 It is important to ensure that any licensing requirements are satisfied if using a third-party library that provides them. If you are unsure, consult with legal.
 
 ### Our Licenses
-
-#### MIT
 
 #### LGPL 3.0
 
