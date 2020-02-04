@@ -2,24 +2,32 @@
 
 ### [XYO Base SDK - Swift (sdk-base-swift)](https://github.com/XYOracleNetwork/sdk-base-swift)
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-swift?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-swift) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-swift.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-swift)
 
-### [XYO Base SDK - Web (sdk-base-swift)](https://github.com/XYOracleNetwork/sdk-base-web)
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-web?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-web) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-web.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-web)
+![](https://github.com/XYOracleNetwork/sdk-base-swift/workflows/Base%20Build/badge.svg)
+[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-swift?branch=master&token=0c95939d44cd72eb10c7a4391e99343599ed0c44)](https://bettercodehub.com/)
 
 ### [XYO Base SDK - React (sdk-base-react)](https://github.com/XYOracleNetwork/sdk-base-react)
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-react?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-react) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-react.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-react)
+[![NPM](<https://img.shields.io/npm/v/@xyo-network/sdk-base-nodejs.svg>)](https://www.npmjs.com/package/@xyo-network/sdk-base-nodejs)
 
-### [XYO Base SDK - C# (sdk-base-csharp)](https://github.com/XYOracleNetwork/sdk-base-csharp) Coming Soon
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-base-csharp?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-base-csharp) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-base-csharp.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-base-csharp)
+![](https://github.com/XYOracleNetwork/sdk-base-nodejs/workflows/Build/badge.svg?branch=develop)
+[![Maintainability](https://api.codeclimate.com/v1/badges/7d316730bfdfbe4e1f73/maintainability)](https://codeclimate.com/repos/5cc23851684dee02400005ef/maintainability)
+[![DepShield Badge](https://depshield.sonatype.org/badges/XYOracleNetwork/sdk-base-nodejs/depshield.svg)](https://depshield.github.io)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/008ea5b134ea4a9195b8deedeaf1665d)](https://www.codacy.com/app/XYOracleNetwork/sdk-base-nodejs?utm_source=github.com&utm_medium=referral&utm_content=XYOracleNetwork/sdk-base-nodejs&utm_campaign=Badge_Grade) [![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-base-nodejs/badge.svg?targetFile=package.json)](https://snyk.io/test/github/XYOracleNetwork/sdk-base-nodejs?targetFile=package.json)
 
 ## Core - XYO Protocol Libraries
 
-### [XYO Core SDK - Web (sdk-core-web)](https://github.com/XYOracleNetwork/sdk-core-web) Coming Soon
+### [XYO Core SDK - Swift (sdk-core-swift)](https://github.com/XYOracleNetwork/sdk-core-swift)
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-core-web?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-core-web) [![Build Status](https://travis-ci.com/XYOracleNetwork/sdk-core-web.svg?token=A85R2pDnngMDyWoqeLUG&branch=master)](https://travis-ci.com/XYOracleNetwork/sdk-core-web)
+
+![](https://github.com/XYOracleNetwork/sdk-core-swift/workflows/Build/badge.svg)
+[![](https://img.shields.io/cocoapods/v/sdk-core-swift.svg?style=flat)](https://cocoapods.org/pods/sdk-core-swift)
+[![Maintainability](https://api.codeclimate.com/v1/badges/587ae96e86057b6b6178/maintainability)](https://codeclimate.com/repos/5c4a7a7372b7b2029d008b34/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/587ae96e86057b6b6178/test_coverage)](https://codeclimate.com/repos/5c4a7a7372b7b2029d008b34/test_coverage)
+
+### [XYO Core SDK - Android (sdk-core-android)](https://github.com/XYOracleNetwork/sdk-core-android)
+
+
+![](https://github.com/XYOracleNetwork/sdk-xyo-android/workflows/CI/badge.svg?branch=develop) [![Download](https://api.bintray.com/packages/xyoraclenetwork/xyo/sdk-xyo-android/images/download.svg)](https://bintray.com/xyoraclenetwork/xyo/sdk-xyo-android/_latestVersion) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9712b501940e45428072255a283fa23a)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=XYOracleNetwork/sdk-xyo-android&amp;utm_campaign=Badge_Grade) [![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-xyo-android/badge.svg?targetFile=xyo-android-library/build.gradle)](https://snyk.io/test/github/XYOracleNetwork/sdk-xyo-android?targetFile=xyo-android-library/build.gradle)
 
 # Sentinel - XYO Sentinel Libraries
 

@@ -10,9 +10,8 @@ There are shared elements of SDKs that should be documented across readmes and g
 
 ### sdk-core-kotlin
 
-[![](https://jitpack.io/v/XYOracleNetwork/sdk-core-kotlin.svg)](https://jitpack.io/#XYOracleNetwork/sdk-core-kotlin) [![](https://img.shields.io/gitter/room/XYOracleNetwork/Stardust.svg)](https://gitter.im/XYOracleNetwork/Dev) [![Maintainability](https://api.codeclimate.com/v1/badges/af641257b27ecea22a9f/maintainability)](https://codeclimate.com/github/XYOracleNetwork/sdk-core-kotlin/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/af641257b27ecea22a9f/test_coverage)](https://codeclimate.com/github/XYOracleNetwork/sdk-core-kotlin/test_coverage)
+![](https://github.com/XYOracleNetwork/client-xyo-nodejs/workflows/CI/badge.svg?branch=develop) [![Download](https://api.bintray.com/packages/xyoraclenetwork/xyo/sdk-core-kotlin/images/download.svg?version=3.0.3)](https://bintray.com/xyoraclenetwork/xyo/sdk-core-kotlin/3.0.3/link) [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-core-kotlin?branch=master)](https://bettercodehub.com/) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2fb2eb69c1db455299ffce57b0216aa6)](https://www.codacy.com/app/XYOracleNetwork/sdk-core-kotlin?utm_source=github.com&utm_medium=referral&utm_content=XYOracleNetwork/sdk-core-kotlin&utm_campaign=Badge_Grade) [![Maintainability](https://api.codeclimate.com/v1/badges/af641257b27ecea22a9f/maintainability)](https://codeclimate.com/github/XYOracleNetwork/sdk-core-kotlin/maintainability) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=XYOracleNetwork_sdk-core-kotlin&metric=alert_status)](https://sonarcloud.io/dashboard?id=XYOracleNetwork_sdk-core-kotlin) [![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-core-kotlin/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/XYOracleNetwork/sdk-core-kotlin?targetFile=build.gradle)
 
-[![](https://travis-ci.org/XYOracleNetwork/sdk-core-kotlin.svg?branch=master)](https://travis-ci.org/XYOracleNetwork/sdk-core-kotlin) [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-core-kotlin?branch=master)](https://bettercodehub.com/) [![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=XYOracleNetwork_sdk-core-kotlin&metric=alert_status)](https://sonarcloud.io/dashboard?id=XYOracleNetwork_sdk-core-kotlin) [![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-core-kotlin/badge.svg)](https://snyk.io/test/github/XYOracleNetwork/sdk-core-kotlin)
 
 Table of Contents
 
@@ -27,7 +26,7 @@ Table of Contents
 
 ## Long Description
 
-A library to preform all core XYO Network functions.
+A library to perform all core XYO Network functions.
 This includes creating an origin chain, maintaining an origin chain, negotiations for talking to other nodes, and other basic functionality.
 The library has heavily abstracted modules so that all operations will work with any crypto, storage, networking, etc.
 
@@ -170,11 +169,11 @@ node.addListener("MyListener", object : XyoNodeListener {
 
 ### sdk-core-swift
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/587ae96e86057b6b6178/maintainability)](https://codeclimate.com/repos/5c4a7a7372b7b2029d008b34/maintainability) [![](https://img.shields.io/cocoapods/v/sdk-core-swift.svg?style=flat)](https://cocoapods.org/pods/sdk-core-swift) [![Test Coverage](https://api.codeclimate.com/v1/badges/587ae96e86057b6b6178/test_coverage)](https://codeclimate.com/repos/5c4a7a7372b7b2029d008b34/test_coverage)
+![](https://github.com/XYOracleNetwork/sdk-core-swift/workflows/Build/badge.svg) ![](https://github.com/XYOracleNetwork/sdk-core-swift/workflows/Release/badge.svg)
+[![](https://img.shields.io/cocoapods/v/sdk-core-swift.svg?style=flat)](https://cocoapods.org/pods/sdk-core-swift)
+[![Maintainability](https://api.codeclimate.com/v1/badges/587ae96e86057b6b6178/maintainability)](https://codeclimate.com/repos/5c4a7a7372b7b2029d008b34/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/587ae96e86057b6b6178/test_coverage)](https://codeclimate.com/repos/5c4a7a7372b7b2029d008b34/test_coverage)
 
-[![Build Status](https://travis-ci.org/XYOracleNetwork/sdk-core-swift.svg?branch=master)](https://travis-ci.org/XYOracleNetwork/sdk-core-swift) 
-
-A library to preform all core XYO Network functions.
+A library to perform all core XYO Network functions.
 This includes creating an origin chain, maintaining an origin chain, negotiations for talking to other nodes, and other basic functionality.
 The library has heavily abstracted modules so that all operations will work with any crypto, storage, networking, ect.
 
@@ -237,7 +236,7 @@ let socket = XyoTcpSocket.create(peer: tcpPeer)
 // wraps the socket to comply to the pipe interface
 let pipe = XyoTcpSocketPipe(socket: socket, initiationData: nil)
 
-// wraps the pipe to preform standard communications
+// wraps the pipe to perform standard communications
 let handler = XyoNetworkHandler(pipe: pipe)
 
 node.boundWitness(handler: handler, procedureCatalogue: XyoProcedureCatalogue) { (boundWitness, error) in
