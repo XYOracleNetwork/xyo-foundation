@@ -1,8 +1,47 @@
 # Setting Up Badges for Your Repository
 
-> This is a guide for all possible badges. For your particular project, please go to the [readme guide](readme-guide) for the badges you need to include in your project
+> This is a guide for all possible badges. For your particular project, please go to the [readme guide](readme-guide) for the badges you need to include in your project. Although it is highly recommended that you use the badges mentioned in this guide.
+
+Badges are an important indicator as to code, build, and release quality. These should give the end user an accurate representation as to the state of your code and put them at ease about installing and using your SDK and module with their project. 
+
+## Github Actions
+
+-   To use a Github actions badge, you will need to copy your repo path to the workflows folder and yaml file:
+-   Example with a particular branch: 
+
+    `![](https://github.com/XYOracleNetwork/client-xyo-nodejs/workflows/CI/badge.svg?branch=develop)`
+
+    ![](https://github.com/XYOracleNetwork/client-xyo-nodejs/workflows/CI/badge.svg?branch=develop)
+
+
+    - This badge gets its validation from the name portion of the `ci.yaml` file which is `CI`
+
+-   Example for master build: 
+
+    `![](https://github.com/XYOracleNetwork/client-xyo-nodejs/workflows/CI/badge.svg)`
+    
+    ![](https://github.com/XYOracleNetwork/client-xyo-nodejs/workflows/CI/badge.svg)
+
+
+- With Github Actions, you can also document multiple badges for different worfklows, such as release, testing, etc. 
+
+  - Example:  
+  
+    `![](https://github.com/XYOracleNetwork/sdk-base-android/workflows/Release/badge.svg?=?branch=develop)`
+
+    ![](https://github.com/XYOracleNetwork/sdk-base-android/workflows/CI/badge.svg?branch=develop)
+
+
+    `![](https://github.com/XYOracleNetwork/sdk-base-android/workflows/Release/badge.svg?branch=master)`
+
+    ![](https://github.com/XYOracleNetwork/sdk-base-android/workflows/Release/badge.svg?branch=master)
+
+This allows a user who is looking at the documentation repo to know the stages that are passing. 
 
 ## Better Code Hub
+
+[![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-core-kotlin?branch=master)](https://bettercodehub.com/)
+
 
 -   Go to **[bettercodehub.com](https://bettercodehub.com/)**
 
@@ -34,35 +73,14 @@
 
 -   Copy the markdown version and paste it in the readme for your repository
 
-## Travis CI
+## For Codacy, CodeClimate, SonarCloud, and Snyk
 
--   Go to **[travis-ci.org](https://travis-ci.org)**
+> Check in with Phillip Lorenzo or Arie Trouw the current admins for these services. They will decide whether to give you permission to generate the badges, or whether admin would need to generate and place in documentation.
 
--   Click on the `Sign in with GitHub` button 
+Your project will be complete and to standard once you have placed these badges in your documentation and `README.md` file
 
--   Once you sign in you should see a page with a repository and its build status
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2fb2eb69c1db455299ffce57b0216aa6)](https://www.codacy.com/app/XYOracleNetwork/sdk-core-kotlin?utm_source=github.com&utm_medium=referral&utm_content=XYOracleNetwork/sdk-core-kotlin&utm_campaign=Badge_Grade) [![Maintainability](https://api.codeclimate.com/v1/badges/af641257b27ecea22a9f/maintainability)](https://codeclimate.com/github/XYOracleNetwork/sdk-core-kotlin/maintainability) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=XYOracleNetwork_sdk-core-kotlin&metric=alert_status)](https://sonarcloud.io/dashboard?id=XYOracleNetwork_sdk-core-kotlin) [![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-core-kotlin/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/XYOracleNetwork/sdk-core-kotlin?targetFile=build.gradle)
 
--   You should also see a left side navigation with a list of the latest builds  of repositories in `XYOracleNetwork`
-
-**Above the left side navigation, you should see a search bar which has the placeholder text: `Search all repositories`**
-
--   This is where you can search for all of your repositories where you have already setup a travis build
-
--   If you have a build for the repository you searched for, you should then be able to click on the status image next to the **GitHub** logo next to the name of the repo
-
-**When you click on the status image, you will see a modal with the following**
-
--   branch - you can choose the branch you want the badge to represent, we should always select the `master` branch
-
--   A dropdown select with the starter selection `Image URL`
-
--   Select `Markdown`
-
--   Once you select markdown, you can copy the markdown text and paste it to your repository's readme file
-
-## For Codacy, CodeClimate, and SonarCloud
-
-> Check in with Phillip Lorenzo or Arie Trouw the current admins for these services
 
 ### Using remark for your project's markdown files
 

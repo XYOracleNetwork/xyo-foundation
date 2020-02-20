@@ -30,11 +30,15 @@ For XYO, we expect high quality standards in our code. That's why we utilize the
 
 ## Dependency Checking (?)
 
-## CI/CD (Travis)
+## CI/CD (Github Actions)
+
+## Publishing (Bintray)
+
+We publish some of our Android/Kotlin based projects using [Bintray](https://bintray.com/). Simply add it into to the project build.gradle, instructions on this can be [found here](https://github.com/bintray/gradle-bintray-plugin).
 
 ## Publishing (JitPack)
 
-We publish all of our Java based projects using [JitPack](https://jitpack.io/). Simply add it into to the root build.gradle, instructions on this can be [found here](https://jitpack.io/).
+We publish some of our Java based projects using [JitPack](https://jitpack.io/). Simply add it into to the root build.gradle, instructions on this can be [found here](https://jitpack.io/).
 
 ## Runtime (Java)
 

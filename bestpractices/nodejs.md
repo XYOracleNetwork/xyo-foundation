@@ -22,9 +22,9 @@ For more on code quality, take a look at our [Badge Setup Guide](./badge-setup.m
 
 ## Dependency Checking (David/DepShield)
 
-## CI/CD (Travis)
+## CI/CD (Github Actions)
 
-For more on setting up TravisCI, consult our [Badge Setup Guide](./badge-setup.md)
+For more on setting up Github Actions, consult our Github Actions Folder.
 
 ## Publishing (NPMJS)
 

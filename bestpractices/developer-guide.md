@@ -67,10 +67,9 @@ While we currently do not have a set standard naming convention for Folders and 
 In order for your project to fit in smoothly with the XY suite of products, it's important to add the right linters, CI/CD modules, and other needed software before your first merge into `master`.
 
 All projects absolutely must have 
+- Github Actions
 - [Code Climate](https://codeclimate.com/)
    - [Click here for a guide to set up Code Climate in the project](https://docs.codeclimate.com/docs/configuring-test-coverage)
-- [Travis CI](https://travis-ci.com/)
-  - [Click here for a guide to set up Travis in the project](https://docs.travis-ci.com/user/tutorial/)
 - License (whether .md or .txt) - ***for open source projects***
 
 **NOTE** This license will typically be an MIT license, but consult our product manager to confirm

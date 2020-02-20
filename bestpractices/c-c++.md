@@ -20,7 +20,7 @@
 
 ## Dependency Checking (?)
 
-## CI/CD (Travis)
+## CI/CD (Github Actions)
 
 ## Publishing (?)
 
