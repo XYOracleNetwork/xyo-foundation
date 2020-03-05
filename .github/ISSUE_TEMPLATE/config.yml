@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: XYO Developer Portal
+    url: https://developers.xyo.network/
+    about: XYO Foundation Developer Portal
+  - name: XYO Foundation Site
+    url: https://xyo.network/
+    about: Check out the fundamentals of our Foundation here
