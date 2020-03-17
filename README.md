@@ -4,10 +4,6 @@
 
 # XYO GitHub Guide
 
-## For Complete Documentation 
-
-> Visit [developers.xyo.network](https://developers.xyo.network/)
-
 ## The Importance of the Onboarding Process
 
 > This process will help get you started in developing with the XYO team, please read through these guides and take the time to integrate our practices into your work with XYO software

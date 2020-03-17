@@ -6,6 +6,14 @@
 
 ## XYO Integration - **New**
 
+### [SDK XYO SDK - Flutter (sdk-xyo-flutter)](https://github.com/XYOracleNetwork/sdk-xyo-flutter)
+
+![](https://github.com/XYOracleNetwork/sdk-xyo-flutter/workflows/iOS%20Build/badge.svg?branch=develop)
+![](https://github.com/XYOracleNetwork/sdk-xyo-flutter/workflows/APK%20Build/badge.svg?branch=develop)
+[![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-xyo-flutter/badge.svg?targetFile=android/build.gradle)](https://snyk.io/test/github/XYOracleNetwork/sdk-xyo-flutter?targetFile=android/build.gradle)
+
+## XYO Integration
+
 ### [SDK XYO Swift](https://github.com/XYOracleNetwork/sdk-xyo-swift)
 
 ![](https://github.com/XYOracleNetwork/sdk-xyo-swift/workflows/Build/badge.svg?branch=develop)
@@ -37,7 +45,7 @@
 [![DepShield Badge](https://depshield.sonatype.org/badges/XYOracleNetwork/sdk-base-nodejs/depshield.svg)](https://depshield.github.io)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/008ea5b134ea4a9195b8deedeaf1665d)](https://www.codacy.com/app/XYOracleNetwork/sdk-base-nodejs?utm_source=github.com&utm_medium=referral&utm_content=XYOracleNetwork/sdk-base-nodejs&utm_campaign=Badge_Grade) [![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-base-nodejs/badge.svg?targetFile=package.json)](https://snyk.io/test/github/XYOracleNetwork/sdk-base-nodejs?targetFile=package.json)
 
-## Core - Core Functionality of XYO
+## Core - Core XYO Libraries
 
 ### [XYO Core SDK - NodeJS (sdk-core-nodejs)](https://github.com/XYOracleNetwork/sdk-core-nodejs)
 
@@ -61,14 +69,6 @@
 
 ![](https://github.com/XYOracleNetwork/sdk-core-c/workflows/Build/badge.svg)
 
-## Archivist - XYO Archivist Libraries
-
-### [XYO Archivist SDK - NodeJS (sdk-archivist-nodejs)](https://github.com/XYOracleNetwork/sdk-archivist-nodejs)
-
-![npm](https://img.shields.io/npm/v/@xyo-network/sdk-archivist-nodejs.svg?style=plastic)
-
-![](https://github.com/XYOracleNetwork/sdk-archivist-nodejs/workflows/Build/badge.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/f3dd4f4d35e1bd9eeabc/maintainability)](https://codeclimate.com/github/XYOracleNetwork/sdk-archivist-nodejs/maintainability) [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-archivist-nodejs?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-archivist-nodejs) [![DepShield Badge](https://depshield.sonatype.org/badges/XYOracleNetwork/sdk-archivist-nodejs/depshield.svg)](https://depshield.github.io)  [![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-archivist-nodejs/badge.svg)](https://snyk.io/test/github/XYOracleNetwork/sdk-archivist-nodejs)
-
 ## BLE - XYO BLE Libraries
 
 ### [BLE SDK - Flutter (sdk-ble-flutter)](https://github.com/XYOracleNetwork/sdk-ble-flutter)
@@ -91,6 +91,14 @@
 [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-ble-android?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-ble-android)
 [![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=XYOracleNetwork_sdk-ble-android&metric=alert_status)](https://sonarcloud.io/dashboard?id=XYOracleNetwork_sdk-ble-android)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b14446847e614a2fae7152892765dac1)](https://www.codacy.com/app/arietrouw/sdk-ble-android?utm_source=github.com&utm_medium=referral&utm_content=XYOracleNetwork/sdk-ble-android&utm_campaign=Badge_Grade) [![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-ble-android/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/XYOracleNetwork/sdk-ble-android?targetFile=build.gradle)
+
+## Archivist - XYO Archivist Libraries
+
+### [XYO Archivist SDK - NodeJS (sdk-archivist-nodejs)](https://github.com/XYOracleNetwork/sdk-archivist-nodejs)
+
+![npm](https://img.shields.io/npm/v/@xyo-network/sdk-archivist-nodejs.svg?style=plastic)
+
+![](https://github.com/XYOracleNetwork/sdk-archivist-nodejs/workflows/Build/badge.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/f3dd4f4d35e1bd9eeabc/maintainability)](https://codeclimate.com/github/XYOracleNetwork/sdk-archivist-nodejs/maintainability) [![BCH compliance](https://bettercodehub.com/edge/badge/XYOracleNetwork/sdk-archivist-nodejs?branch=master)](https://bettercodehub.com/results/XYOracleNetwork/sdk-archivist-nodejs) [![DepShield Badge](https://depshield.sonatype.org/badges/XYOracleNetwork/sdk-archivist-nodejs/depshield.svg)](https://depshield.github.io)  [![Known Vulnerabilities](https://snyk.io/test/github/XYOracleNetwork/sdk-archivist-nodejs/badge.svg)](https://snyk.io/test/github/XYOracleNetwork/sdk-archivist-nodejs)
 
 
 ## Misc - Other XYO Libraries
