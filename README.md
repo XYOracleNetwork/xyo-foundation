@@ -4,6 +4,8 @@
 
 # XYO GitHub Guide
 
+> The XYO Foundation provides this source code available in our efforts to advance the understanding of the XYO Procotol and its possible uses. We continue to maintain this software in the interest of developer education. Usage of this source code is not intended for production.
+
 ## The Importance of the Onboarding Process
 
 > This process will help get you started in developing with the XYO team, please read through these guides and take the time to integrate our practices into your work with XYO software
