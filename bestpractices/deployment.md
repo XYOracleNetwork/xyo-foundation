@@ -22,3 +22,8 @@ Templates included for:
 - Release
 - Publishing
 
+Our deployment process is as follows:
+
+- All code that has passed build and review checks must always be pushed to the `release` branch (unless the repository doesn't contain one).
+- Once the release branch has been updated and pre-release github actions are complete, then the release branch will be merged into master for final release. 
+
