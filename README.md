@@ -4,6 +4,8 @@
 
 # Note: This documentation is for XYO 1.0 and thus is out of date.  We will be updating this repo with information for XYO 2.0 very soon!
 
+> XYO 1.x Repos can be found at: [XYOracleNetwork-v1](https://github.com/XYOracleNetwork-v1)
+
 # XYO GitHub Guide
 
 > The XYO Foundation provides this source documentation available in our efforts to advance the understanding of the XYO Procotol and its possible uses. We continue to maintain this software in the interest of developer education. Usage of this source code is not intended for production.
